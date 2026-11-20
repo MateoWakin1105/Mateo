@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    margin:0;
+    padding: 20px;
+}
+h1, h2 {
+    color: #1b4332
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+label {
+    display: inline-block;
+    width: auto;
+    margin-right: 8px;
+}
+
+input, select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background: #28a745
+    color  blue
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10\px;
+}
+
+th, td {
+    border: 1px solid #2d6a4f;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2d6a4f;
+    color: white;
+}
+

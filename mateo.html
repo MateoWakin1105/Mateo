@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Select</title>
+</head>
+<body>
+<h1>COURSE SELECTION</h1>
+<P>Chose your preferred College Program</P>
+    <label>Program
+        <select id="courseSelect">
+            <option value="">Select Program</option>
+            <option>BSIS</option>
+            <option>ENGINEERING</option>
+            <option>NURSING</option>
+            <option>BSAIS</option>
+        </select>
+
+    </label>
+
+<P id="courseOutput"></P>
+
+<script>
+    const courseSelect = document.querySelector('#courseSelect');
+    const courseOutput = document.querySelector('#courseOutput'); 
+    courseSelect.addEventListener('change', (event) => {
+        courseOutput.textContent = event.target.value || 'No Program'
+    });
+</script>
+
+
+</body>
+</html>

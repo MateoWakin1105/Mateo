@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #529e69, #60b17f);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 300px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+input:focus {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    transform: scale(1.02);
+}
+
+button {
+    width: 300px;
+    padding: 13px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #186309;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    input,
+    button {
+        width: 100%;
+    }
+}
